@@ -52,12 +52,19 @@ When called this endpoint uses the current time to create a new key value pair a
 **Instructions to run**
 
 1 install pipenv on you system using the command pip install --user pipenv
+
 2) clone this repo
+
 3) cd to the repo directory
+
 4) run "pipenv install" to install the needed project files
+
 5) run pipenv shell to enter your environment
+
 6) python manage.py migrate to run migrations
+
 7) python manage.py createsuperuser to create a user for authentication requirement
+
 8) visit any of the end points above
 
 YOU MAY USE THE SQLITE DB CONTAINED IN THE REPO IF YOU DONT WANT TO RUN MIGRATONS SIMPLE RENAME THE FILE TO db.sqlite3
